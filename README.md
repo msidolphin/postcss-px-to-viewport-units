@@ -123,7 +123,7 @@ Default:
 ```js
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var pxtoviewport = require('postcss-px-to-viewport');
+var pxtoviewport = require('postcss-pixel-to-viewport-units');
 
 gulp.task('css', function () {
 
