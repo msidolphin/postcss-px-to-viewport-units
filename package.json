@@ -6,10 +6,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:msidolphin/postcss-pixel-to-viewport.git"
+    "url": "git@github.com:msidolphin/postcss-px-to-viewport-units.git"
   },
-  "bugs": "https://github.com/msidolphin/postcss-pixel-to-viewport/issues",
-  "homepage": "https://github.com/msidolphin/postcss-pixel-to-viewport",
+  "bugs": "https://github.com/msidolphin/postcss-px-to-viewport-units/issues",
+  "homepage": "https://github.com/msidolphin/postcss-px-to-viewport-units",
   "main": "index.js",
   "keywords": [
     "css",
