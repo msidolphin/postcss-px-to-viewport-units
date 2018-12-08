@@ -1,4 +1,4 @@
-# postcss-px-to-viewport [![NPM version](https://badge.fury.io/js/postcss-px-to-viewport.svg)](http://badge.fury.io/js/postcss-px-to-viewport)
+# postcss-px-to-viewport-units [![NPM version](https://badge.fury.io/js/postcss-px-to-viewport-units.svg)](http://badge.fury.io/js/postcss-px-to-viewport-units)
 
 Forked by evrone/postcss-px-to-viewport 
 
