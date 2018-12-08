@@ -139,3 +139,44 @@ gulp.task('css', function () {
         .pipe(gulp.dest('build/css'));
 });
 ```
+### Use with webpack
+
+#### Install
+
+```bash
+npm install postcss-px-to-viewport-units -D
+```
+
+#### webacpk config
+```js
+module.exports = {
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader", "postcss-loader"]
+            }
+        ]
+    }
+}
+```
+
+#### postcss config
+And create .postcssrc.js
+```js
+module.exports = {
+  "plugins": {
+    "postcss-px-to-viewport-units": {
+      viewportWidth: 750,
+      viewportHeight: 1334,
+      unitPrecision: 5,
+      viewportUnit: 'vw',
+      selectorBlackList: [],
+      fontViewportUnit: 'vw',
+      minPixelValue: 1,
+      mediaQuery: false,
+      exclude: [/node_modules/]
+    }
+  }
+}
+```
