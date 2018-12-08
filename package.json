@@ -1,0 +1,31 @@
+{
+  "name": "@msidolphin/postcss-px-to-viewport",
+  "description": "A CSS post-processor that converts px to viewport units (vw, vh, vmin, vmax).",
+  "version": "0.0.1",
+  "author": "msidolphin <OoMass-EffectoO@hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:msidolphin/postcss-pixel-to-viewport.git"
+  },
+  "bugs": "https://github.com/msidolphin/postcss-pixel-to-viewport/issues",
+  "homepage": "https://github.com/msidolphin/postcss-pixel-to-viewport",
+  "main": "index.js",
+  "keywords": [
+    "css",
+    "units",
+    "pixel",
+    "px",
+    "viewport",
+    "vw",
+    "vh",
+    "vmin",
+    "vmax",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "postcss": "^5.0.2"
+  }
+}
